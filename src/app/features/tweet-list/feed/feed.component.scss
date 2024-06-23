@@ -1,0 +1,57 @@
+.row {
+    padding: 10px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.tweet-user {
+    display: flex;
+    align-items: center;
+}
+
+
+.tweets {
+    width: 100%;
+}
+
+.tweet-content {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0 45px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.retweet {
+    border-top: 1px solid #d8dce1;
+    padding-top: 10px;
+
+    .retweet-label {
+        padding-left: 20px;
+    }
+}
+
+.initials-avatar {
+    width: 40px;
+    height: 40px;    
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+label {
+    color: black;
+    font-weight: 700;
+}
+
+.screen_name {
+    color: black;
+    text-decoration: none;
+}
